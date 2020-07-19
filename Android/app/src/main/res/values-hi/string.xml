@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="shop_name">दुकान का नाम</string>
+    <string name="owner_name">मालिक का नाम</string>
+    <string name="email_id">ईमेल आईडी</string>
+    <string name="username">उपयोगकर्ता नाम(यृजरनेम)</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+    <string name="shop_opening_time">दुकान खोलने का समय</string>
+    <string name="shop_closing_time">दुकान बंद करने का समय</string>
+    <string name="password">पासवर्ड</string>
+    <string name="confirm_password">पासवर्ड फिर से लिखें</string>
+    <string name="description">विवरण</string>
+    <string name="shop_address">पता</string>
+    <string name="city">शहर</string>
+    <string name="state">राज्य</string>
+    <string name="country">देश</string>
+    <string name="pin_code">पिन कोड</string>
+    <string name="cashless_transcation">कैशलेस लेनदेन?</string>
+    <string name="do_you_provide_home_delivery">क्या आप होम डिलीवरी प्रदान करते हैं?</string>
+    <string name="are_you_a_brand_shop">क्या आप एक ब्रांड की दुकान हैं?</string>
+    <string name="policy">पंजीकरण करके, आप वेंडोइ के उपयोग की टीम और गोपनीयता नीतियों से सहमत हैं।</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="registration">पंजीकरण</string>
+    <string name="register">रजिस्टर</string>
+    <string name="language">भाषा</string>
+    <string name="upload_shop_image">(दुकान की तस्वीर अपलोड करें)</string>
+
+</resources>

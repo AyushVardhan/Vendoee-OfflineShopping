@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "192452756603",
+    "firebase_url": "https://vendoeev2.firebaseio.com",
+    "project_id": "vendoeev2",
+    "storage_bucket": "vendoeev2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192452756603:android:c6d97fd758d0953d",
+        "android_client_info": {
+          "package_name": "vendoee.vvpvtltd.vendoee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192452756603-l0qu6gr91v0mo2co27l0qa71vacfk9k0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-NTbhSmnHMh0oSMMYqhtVyAYXbRzwjsg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/sample_main_layout"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="CustomerSales"
+    tools:showIn="@layout/app_bar_customer_sales">
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        app:tabTextColor="#757575"
+        app:tabIndicatorColor="#E91E63"
+        app:tabSelectedTextColor="#424242"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:id="@+id/filter"
+            android:background="@color/lightpink"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:src="@drawable/dropdown"
+                android:id="@+id/filterDropDown"
+                android:layout_alignBottom="@+id/filterTextView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="26dp"
+                android:layout_marginEnd="26dp"
+                android:layout_alignTop="@+id/filterTextView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filter"
+                android:id="@+id/filterTextView"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/filterDropDown"
+                android:layout_toStartOf="@+id/filterDropDown"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+
+
+            android:background="#c0c0c0"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/filter"
+            android:id="@+id/nearby"
+            android:background="@color/lightpink"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NearBy"
+                android:id="@+id/nearbyTextView"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="#c0c0c0"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/filter"
+            android:id="@+id/city"
+            android:background="@color/lightpink"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:id="@+id/cityTextView"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/cityDropDown"
+                android:layout_toStartOf="@+id/cityDropDown"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:src="@drawable/dropdown"
+                android:id="@+id/cityDropDown"
+                android:layout_alignBottom="@+id/cityTextView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="26dp"
+                android:layout_marginEnd="26dp"
+
+                android:layout_alignTop="@+id/cityTextView"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#EEEEEE"
+                    android:layout_alignBottom="@+id/pager1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:paddingTop="2dp"
+                        android:paddingBottom="5dp"
+                        android:id="@+id/store"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/icnstore"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Stores"
+                            android:textSize="14dp"
+                            android:textColor="#000"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="0dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:paddingTop="5dp"
+                        android:id="@+id/brands"
+                        android:paddingBottom="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/brands"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Brands"
+                            android:layout_marginLeft="35dp"
+                            android:textSize="14dp"
+                            android:textColor="#000"
+                            android:layout_marginTop="0dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="35dp"
+                        android:paddingTop="5dp"
+                        android:id="@+id/recommendation"
+                        android:paddingBottom="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/request"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Request Product"
+                            android:layout_marginLeft="0dp"
+                            android:textSize="14dp"
+                            android:textColor="#000"
+                            android:layout_marginTop="0dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </FrameLayout>
+</LinearLayout>

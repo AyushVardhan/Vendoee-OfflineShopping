@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="320dp">
+    <TextView
+        android:src="@drawable/ic_add_a_photo_white_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:scaleType="center"
+        android:gravity="center"
+        android:id="@+id/txt1"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:text="Shop Name"
+        android:background="#f44336" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/radius"
+        android:hint="Enter Radius"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/radius">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view Offers"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="toCustomer"
+        android:id="@+id/getCity"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="#f44336"
+        android:paddingLeft="5dp"
+        android:layout_marginBottom="20dp"
+        android:paddingRight="5dp"/>
+        </RelativeLayout>
+
+</RelativeLayout>

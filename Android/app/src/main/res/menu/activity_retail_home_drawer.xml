@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/division"
+            android:icon="@drawable/list_black"
+            android:title="My Categories" />
+        <item
+            android:id="@+id/add"
+            android:icon="@drawable/cart_add"
+            android:title="Add Sale" />
+        <item
+            android:id="@+id/customerDeals"
+            android:icon="@drawable/deal_black"
+            android:title="Customer Deals" />
+        <item
+            android:id="@+id/request"
+            android:icon="@drawable/request"
+            android:title="Product Requests" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/phone_red"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about_us"
+            android:title="About Us" />
+    </group>
+
+</menu>

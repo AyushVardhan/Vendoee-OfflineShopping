@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <group>
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+    </group>
+
+    <item
+        android:id="@+id/requestp"
+        android:icon="@drawable/request"
+        android:title="Product Requests" />
+
+    <item
+        android:id="@+id/deals"
+        android:icon="@drawable/deal_black"
+        android:title="My Deals" />
+
+    <item
+        android:id="@+id/voucher"
+        android:icon="@drawable/voucher"
+        android:title="Vouchers" />
+
+    <item android:title="Categories">
+        <menu>
+            <item
+                android:id="@+id/nav_electronics"
+                android:icon="@drawable/electronics"
+                android:title="@string/nav_electronics" />
+            <item
+                android:id="@+id/nav_appliances"
+                android:icon="@drawable/appliances"
+                android:title="@string/nav_appliances" />
+            <item
+                android:id="@+id/nav_men"
+                android:icon="@drawable/men"
+                android:title="@string/nav_men" />
+
+            <item
+                android:id="@+id/nav_women"
+                android:icon="@drawable/women"
+                android:title="@string/nav_women" />
+
+            <item
+                android:id="@+id/nav_kids"
+                android:icon="@drawable/kid"
+                android:title="@string/nav_kids" />
+
+            <item
+                android:id="@+id/nav_homef"
+                android:icon="@drawable/furnitures"
+                android:title="@string/nav_homef" />
+
+            <item
+                android:id="@+id/nav_books"
+                android:icon="@drawable/book"
+                android:title="@string/nav_books" />
+
+            <item
+                android:id="@+id/nav_grocery"
+                android:icon="@drawable/grocery"
+                android:title="@string/nav_grocery" />
+
+            <item
+                android:id="@+id/nav_automobile"
+                android:icon="@drawable/gifthamper"
+                android:title="Gift Hampers" />
+
+            <item
+                android:id="@+id/nav_foods"
+                android:icon="@drawable/food"
+                android:title="@string/nav_foods" />
+
+            <item
+                android:id="@+id/nav_handloom"
+                android:icon="@drawable/handloom"
+                android:title="Handlooms" />
+
+            <item
+                android:id="@+id/nav_others"
+                android:icon="@drawable/other"
+                android:title="@string/nav_others" />
+
+        </menu>
+    </item>
+
+    <item android:title="Contact and others">
+        <menu>
+
+            <item
+                android:id="@+id/shareApp"
+                android:icon="@drawable/share_128"
+                android:title="Share" />
+            <item
+                android:id="@+id/recoverAccount"
+                android:icon="@drawable/help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/phone_red"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/activity_title_about_us"
+                android:icon="@drawable/about_us"
+                android:title="About Us" />
+            <item
+                android:id="@+id/logoutc"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

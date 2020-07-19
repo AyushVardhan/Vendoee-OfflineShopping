@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink">#E21E6E</color>
+    <color name="indigo">#673AB7 </color>
+    <color name="white">#ffffff </color>
+    <color name="grey">#424242</color>
+    <color name="black">#000000</color>
+    <color name="lightpink">#F06292</color>
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+    <color name="bg_screen5">#EC407A</color>
+    <color name="spots_dialog_color">#f44336</color>
+    <color name="c1">#ff595f</color>
+    <color name="c2">#303f9f</color>
+    <color name="c3">#cbcbcb</color>
+
+    <color name="custom_showcase_bg">#90A4AE93</color>
+
+    <color name="nliveo_green_colorPrimaryDark">#ffffff</color>
+    <color name="nliveo_white">#ffffff</color>
+
+    <color name="colorPrimary">#f44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#f44336</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#1565C0</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#CC3F60</color>
+    <color name="dot_dark_screen4">#3609A5</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#BBDEFB</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#FF93C0</color>
+    <color name="dot_light_screen4">#8357F2</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+    <color name="colorPrimaryTool">#03A9F4</color>
+    <color name="primaryDarkTool">#0288D1</color>
+    <color name="accentTool">#eeff41</color>
+
+</resources>

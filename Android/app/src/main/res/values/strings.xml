@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Vendoee</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="slide_1_title">Hello! Shopping Lovers</string>
+    <string name="slide_1_desc">Now find the best nearby sale in the city!</string>
+
+    <string name="slide_2_title">Hello! Shop Owners</string>
+    <string name="slide_2_desc">Now you can launch your own \n Big Billion Day !!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="facebook_app_id">431201993938583</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_retailer_sign_up">RetailerSignUp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_electronics">Electronics</string>
+    <string name="nav_appliances">Appliances</string>
+    <string name="nav_men">Men</string>
+    <string name="nav_women">Women</string>
+    <string name="nav_kids">Kids &amp; Baby</string>
+    <string name="nav_homef">Home &amp; Furniture</string>
+    <string name="nav_books">Books &amp; more</string>
+    <string name="nav_grocery">Grocery</string>
+    <string name="nav_automobile">Automobile &amp; Parts</string>
+    <string name="nav_tools">Tools &amp; Hardware</string>
+    <string name="nav_electrical">Electrical &amp; Lightining</string>
+    <string name="nav_foods">Food &amp; Restaurants</string>
+    <string name="nav_others">Other</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Electronics</item>
+        <item>Appliances</item>
+        <item>Men</item>
+        <item>Women</item>
+        <item>Kids &amp; Baby</item>
+        <item>Home &amp; Furniture</item>
+        <item>Books &amp; more</item>
+        <item>Grocery</item>
+        <item>Automobile &amp; Parts</item>
+        <item>Tools &amp; Hardware</item>
+        <item>Electrical &amp; Lightining</item>
+        <item>Food &amp; Restaurants</item>
+        <item>Other</item>
+    </string-array>
+    <string name="about">
+
+        Vendoee is an Android and web-based product of Vendoee ventures pvt ltd. It helps you find the best offers and discounts at your nearby shops. Now, no more scanning newspaper ads and hopping around the shops to find best deals. So forget buying a product at its MRP , when you have vendoee bringing every product at discounted price.
+    </string>
+    <string name="contact">We were waiting to listen from you...</string>
+
+    <string name="arr">A-202, Parmeshwar4\nSales India, Near Godrej Garden City\nAhmedabad.\nPin: 382470
+
+    </string>
+
+    <string name="mail">Mail us at: contact@vendoee.com</string>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="home">Home</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="title_activity_search_results2">SearchResults2</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_nearby">Map</string>
+    <string name="title_activity_broad_cast_request">BroadCastRequest</string>
+    <string name="FACEBOOK_APP_ID">1369527959783938</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">ac5d228e38f4751737bf3538c4e15773</string>
+
+    <style name="AppMaterialTheme" parent="SuperMaterialTheme">
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="SuperMaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <string name="shop_name">Shop Name</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="shop_opening_time">Shop Opening Time</string>
+    <string name="shop_closing_time">Shop Closing Time</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="description">Description</string>
+    <string name="shop_address">Shop Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="pin_code">PIN Code</string>
+    <string name="cashless_transcation">Cashless Transaction?</string>
+    <string name="do_you_provide_home_delivery">Do you provide home delivery?</string>
+    <string name="are_you_a_brand_shop">Are you a brand shop?</string>
+    <string name="policy">By registering, you agree to Vendoee\'s Term of use and privacy policies.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="registration">Registration</string>
+    <string name="register">Register</string>
+    <string name="language">Language</string>
+    <string name="upload_shop_image">(Upload Shop Image)</string>
+
+</resources>
